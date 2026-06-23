@@ -205,7 +205,7 @@ module.exports = {
         config: {
                 name: "bank",
                 version: "3.0.0",
-                author: "Christus",
+                author: "Shade",
                 countDown: 10,
                 role: 0,
                 description: {
@@ -559,7 +559,7 @@ ${userData.data.bank.loan > 0 ? `║  ⚠️ Loan: $${userData.data.bank.loan.to
 
                         default: {
                                 const prefix = global.utils.getPrefix(threadID);
-                                return message.reply(`🏦 𝐂𝐇𝐑𝐈𝐒𝐓𝐔𝐒 𝐁𝐀𝐍𝐊 - Premium Banking System\n\n` +
+                                return message.reply(`🏦 𝐒𝐇𝐀𝐃𝐄 𝐁𝐀𝐍𝐊 - Premium Banking System\n\n` +
                                         `📋 Available Commands:\n\n` +
                                         `${prefix}${commandName} register - Create account\n` +
                                         `${prefix}${commandName} balance - View card\n` +
